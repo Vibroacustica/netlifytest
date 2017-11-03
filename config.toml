@@ -3,11 +3,11 @@ theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
 contentdir = "content"
-languageCode = "en-US"
+languageCode = "es-ES"
 layoutdir = "layouts"
 publishdir = "public"
-author = "Alexis Tacnet"
-title = "Cocoa Enhanced"
+author = "Daniel von Ledebur"
+title = "Vibroacustica.me"
 disqusshortname = ""
 pluralizelisttitles = false
 

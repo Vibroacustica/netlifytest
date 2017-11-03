@@ -20,39 +20,45 @@
         </div>
         <div class="icons">
 
+        <script>
+        ;(function() {
+            var bLazy = new Blazy();
+        })();
+        </script>    
+
         {{ if .Site.Params.facebook }}
             <a href="https://facebook.com/{{ .Site.Params.facebook }}" target="_blank">
-                <img class="icon" src="{{ .Site.BaseURL }}img/facebook.svg" alt="facebook" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/facebook.svg" alt="facebook" />
             </a>
         {{ end }}
 
         {{ if .Site.Params.github }}
             <a href="https://github.com/{{ .Site.Params.github }}" target="_blank">
-                <img class="icon" src="{{ .Site.BaseURL }}img/github.svg" alt="github" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/github.svg" alt="github" />
             </a>
         {{ end }}
 
         {{ if .Site.Params.twitter }}
             <a href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
-                <img class="icon" src="{{ .Site.BaseURL }}img/twitter.svg" alt="twitter" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/twitter.svg" alt="twitter" />
             </a>
         {{ end }}
 
         {{ if .Site.Params.linkedin }}
             <a href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}" target="_blank">
-                <img class="icon" src="{{ .Site.BaseURL }}img/linkedin.svg" alt="linkedin" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/linkedin.svg" alt="linkedin" />
             </a>
         {{ end }}
 
         {{ if .Site.Params.email }}
             <a href="mailto:{{ .Site.Params.email }}">
-                <img class="icon" src="{{ .Site.BaseURL }}img/email.svg" alt="email" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/email.svg" alt="email" />
             </a>
         {{ end }}
 
         {{ if .Site.RSSLink }}
             <a href="{{ .Site.RSSLink }}">
-                <img class="icon" src="{{ .Site.BaseURL }}img/rss.svg" alt="rss" />
+                <img class="b-lazy icon" src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="{{ .Site.BaseURL }}img/rss.svg" alt="rss" />
             </a>
         {{ end }}
 

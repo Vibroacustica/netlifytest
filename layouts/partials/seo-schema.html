@@ -27,7 +27,7 @@
     {{ end }}
     {{ end }}
 
-<!-- Structured Data Page Schema - HIDDEN -->
+<!-- Structured Data Page Schema - HIDDEN 
 <div itemscope itemtype="http://schema.org/BlogPosting" style="display:none;">
      <meta itemprop="mainEntityOfPage" content="{{ .Permalink }}" />
      <meta itemprop="inLanguage" content="en-US" />
@@ -48,8 +48,8 @@
          <meta itemprop="width" content="220" >
          <meta itemprop="height" content="220" >
     </div>
-    {{ else }}
-    <!-- Default to site Logo -->
+    {{ else }} -->
+    <!-- Default to site Logo 
     <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
          <img  itemprop="url" src="{{ .Site.Params.defaultPostImage | absURL }}" alt="thumbnail">
          <meta itemprop="width" content="200" >
@@ -66,9 +66,9 @@
       <meta itemprop="name" content="{{ .Site.Params.organization }}">
       <a itemprop="url" href="/"> 
       <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject"  >
-      <img itemprop="image" src="{{ .Site.Params.favicon | absURL }}" />
-      <link itemprop="url" href="{{ .Site.Params.favicon | absURL }}" />
+      <img itemprop="image" src="{{ .Site.Params.faviconfile | absURL }}" />
+      <link itemprop="url" href="{{ .Site.Params.faviconfile | absURL }}" />
       </span>
       </a>
     </div>
-</div>
+</div> -->

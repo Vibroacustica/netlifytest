@@ -22,6 +22,7 @@ copyright = "Copyright © 2017 Vibroacustica.me"
 # copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
+defaultPostImage = "img/logo.png"
 highlightjs = false
 blazy = true
 # progressively = true
